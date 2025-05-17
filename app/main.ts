@@ -68,7 +68,7 @@ const start = async () => {
 
     // Server startup
     await app.listen({
-      port: Number(process.env.PORT) || 3002,
+      port: Number(process.env.PORT) || 3003,
       host: process.env.HOST || '0.0.0.0' // Important for Docker/containerization
     });
 
